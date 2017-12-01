@@ -1,0 +1,12 @@
+Persistencia
+---------------------------------
+Ver listas.
+Patron adapter.
+RecyclerView .
+Recicla las vistas.
+El adapter no se infla por el activity.
+No altura match parent, toma toda la pantalla, configurar tamaño personalizado.
+Linear layot dentro de linear layout.
+android:weight peso para tamaño relativo del total, es relativo a los componentes.
+
+

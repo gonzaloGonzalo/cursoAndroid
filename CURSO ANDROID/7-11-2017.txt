@@ -1,0 +1,35 @@
+Transicion de estado de las activities
+Diagrama de callbacks
+resumen de estados
+
+onStart		--> El activity se crea
+onResume    --> El activity esta disponible 
+pause       --> Se friza y guarda los estados, para la interaccion entre apps
+onStop      --> 
+onRestart   -->
+onDestroy   --> Se destruye la aplicacion y esta listo para ir a onStart
+onSaveInstanceState --> Guarda la información actual en la activity. Ciclo de vida es para solo activities
+
+Android libera recursos primero matando los servicios background
+Constraint layout
+
+LOG implementación de Android
+ALT+INSERT --> Propone los metodos para sobreescribir
+Las variables se inicializan en el metodo onCreate
+
+Comunicacion de las activities
+-------------------------------------------------------
+Las activities se llaman a través de intent
+Se llama al metodo intent y redirecciona a la siguiente activity
+
+Carpeta drawable, tiene los recursos de imagen. 
+metodo startActivity:
+parametros: aplicación y actividad.
+Intent implicito determinamos la accion pero no la activity.
+Intent a otras aplicaciones. 
+
+Intents --> Implicitos y explicitos.
+
+ClickListener opcion que se va a ejecutar cuando se presiona el boton 
+Intent intent = new IntentMainActivity()
+

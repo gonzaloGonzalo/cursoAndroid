@@ -1,0 +1,47 @@
+Trabajo final aplicación personalizada. 
+
+	Conceptos generales de Android
+	Android es un sistema operativo basado en el núclo Linux.
+	Android es un framework Java.
+	JVM virtual Dalvik reemplazado por Android Runtime.
+	OPENGL para gráficos 3D.
+	Activity Manager - Pantalla Actual. 
+	Existen bibliotecas escritas en C.
+	RUNTIME - Convierte el codigo de alto nivel en lenguaje de maquina para que un CPU 
+	pueda entenderlo y ejecutarlo.
+	Java = portablidad.
+	Se genera APK y se instala en ANDROID.
+	Dalvik es la maquina virtual.
+	JVM optimizada para ANDROID.
+	.DEX bytecode ANDROID.
+	Complacion Just in time, cada vez se ejecuta la aplicación se traduce dinamicamente el bytecode.
+	Dalvik es depreada tiene back compatibility. 
+	IDE = Android Studio.
+	Es recomendable tener una version mínima de Android 4.4
+	Support Library - Widget para compatibilidad.
+	Java -> .class -> .dex -> DVM
+	Andorid Runtime (ART)
+	Compilacion Ahead of time (AOT). Durante la instalacion se traduce estaticamente el DEX 
+	bytecode en lenguaje de maquina y se guarda en la memoria del dispositivo.
+	Activity Representa una pantalla.
+	
+	Estructura-------------------------------------------------------------------------------
+	-----------------------------------------------------------------------------------------
+	
+	Android Manifest. 
+	Se declara los permisos de la aplicacion. 
+	Se declara los servicios que va a consumir. 
+	Java Folder.
+	Resources Folder.
+	Layout -> xml, html.
+	MipMap -> Iconos.
+	Values -> Valores customizables por el usuario. Colores, dimensiones, strings, estilos.
+	
+	Clases principales
+	Metodos principales onCreate()
+	R -> Archivos pre compilados de Android
+	Referencia a carpeta Layout
+	Busca los componentes por ID
+	Las activities se comunican a traves de intents
+	Pantalla básica: Layout y Clase Java
+	Activity: a single task that an usar can do.

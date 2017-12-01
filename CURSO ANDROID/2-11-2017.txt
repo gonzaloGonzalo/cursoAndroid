@@ -1,0 +1,25 @@
+"da Clase de Android
+
+Orientación a objetos
+---------------------------------------------------------------
+Activity es una clase.
+Tag linear layout organiza la disposicion de los objetos.
+Agregar height and width.
+Linear layout es el "Canvas"
+Atributo ID se accede desde la clase Java.
+Armado de la UI es desde el XML.
+Objeto button
+Listener. Metodo onclickListener
+Listener definido para boton / objeto.
+Inner class
+@Override 
+Métod onclick
+
+Relative layout - Disposición relativa de los elementos
+Diferencia entre relative layout and linear layout.
+Responsive design use DP instead of PX.
+Edit text. 
+	Hint. to user. 
+String.xml Se define los valores del texto.
+layout-gravity 
+

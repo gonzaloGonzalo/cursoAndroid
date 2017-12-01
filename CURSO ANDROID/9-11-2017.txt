@@ -1,0 +1,17 @@
+Persistencia
+---------------------------------
+Definir contrato 
+DataBaseHelper extiende de sqlLiteOpenHelper
+
+Threads
+---------------------------------
+MultiThreads 
+utilizar metodos synchronized  
+Para actividades que se realizan en background
+con Asynch Tasks
+doInBackground, onPostExcecute
+
+Servicio en background
+---------------------------------
+Servicios que se utilizan mas alla que el activity este activo o no 
+
